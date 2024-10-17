@@ -14,5 +14,13 @@
     "postCreateCommand": "pip install -r requirements.txt",
     "settings": {
         "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "secrets": {
+      "POSTGRES_USER": {
+        "description": "Postgresql user name"
+      },
+      "POSTGRES_PASSWORD": { 
+    	"description": "Postgresql password"
+      }
     }
 }
